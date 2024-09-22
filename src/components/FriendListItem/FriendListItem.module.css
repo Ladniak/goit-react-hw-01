@@ -1,0 +1,28 @@
+.friendListItemDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.friendListItemImg {
+  width: 67px;
+}
+
+.friendListItemName {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.friendListItemStats {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.friendListItemStats.online {
+  color: green;
+}
+
+.friendListItemStats.offline {
+  color: red;
+}

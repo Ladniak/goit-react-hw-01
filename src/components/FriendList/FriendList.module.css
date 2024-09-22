@@ -1,0 +1,16 @@
+.listOfFriends {
+  display: flex;
+  margin-top: 85px;
+  gap: 25px;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.listOfFriendsItem {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 15px 15px 7px 15px;
+}

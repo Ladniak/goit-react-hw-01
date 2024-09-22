@@ -1,0 +1,22 @@
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 85px 0 85px 25px;
+}
+
+.transactionThead {
+  background-color: #333;
+  color: white;
+}
+
+.transactionTh,
+.transactionTd {
+  padding: 12px;
+  border: 1px solid #333;
+  font-weight: 500;
+}
+
+.transactionTbodyTr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
